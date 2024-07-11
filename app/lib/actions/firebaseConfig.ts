@@ -7,8 +7,8 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBP5UcDauYUP05eQfWFNYTaaGhm247jBsg",
-  authDomain: "codesync-ea680.firebaseapp.com",
+  apikey: process.env.apikey,
+  authDomain :process.env.authDomain,
   projectId: "codesync-ea680",
   storageBucket: "codesync-ea680.appspot.com",
   messagingSenderId: "69588047847",
